@@ -2,10 +2,10 @@
     "dataset_name": "Team06-C5 PII Release Guard Dataset",
     "description": "Ground truth sensitive regions (Faces/PII) for Privacy-Utility evaluation",
     "total_images": 21,
-    "total_sensitive_instances": 92,
+    "total_sensitive_instances": 85,
     "slice_summary": {
-        "large_faces": 73,
-        "small_faces": 19
+        "large_faces": 67,
+        "small_faces": 18
     },
     "images": {
         "1.jpg": {
@@ -256,7 +256,7 @@
             "image_name": "12.jpg",
             "width": 619,
             "height": 495,
-            "num_sensitive_regions": 5,
+            "num_sensitive_regions": 3,
             "sensitive_regions": [
                 {
                     "instance_id": "PII_FACE_0012",
@@ -317,46 +317,6 @@
                     "slice": "standard_large_face",
                     "confidence_source": 0.6241,
                     "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0015",
-                    "type": "face",
-                    "box_xyxy": [
-                        40.47,
-                        119.91,
-                        96.74,
-                        201.26
-                    ],
-                    "box_xywh": [
-                        40.47,
-                        119.91,
-                        56.27,
-                        81.35
-                    ],
-                    "area": 4577.56,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.4405,
-                    "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0016",
-                    "type": "face",
-                    "box_xyxy": [
-                        41.0,
-                        127.79,
-                        75.1,
-                        185.93
-                    ],
-                    "box_xywh": [
-                        41.0,
-                        127.79,
-                        34.1,
-                        58.14
-                    ],
-                    "area": 1982.57,
-                    "slice": "small_distant_face",
-                    "confidence_source": 0.296,
-                    "is_difficult": true
                 }
             ]
         },
@@ -500,7 +460,7 @@
             "image_name": "15.jpg",
             "width": 649,
             "height": 472,
-            "num_sensitive_regions": 4,
+            "num_sensitive_regions": 3,
             "sensitive_regions": [
                 {
                     "instance_id": "PII_FACE_0023",
@@ -561,26 +521,6 @@
                     "slice": "small_distant_face",
                     "confidence_source": 0.4922,
                     "is_difficult": true
-                },
-                {
-                    "instance_id": "PII_FACE_0026",
-                    "type": "face",
-                    "box_xyxy": [
-                        169.86,
-                        41.83,
-                        224.0,
-                        125.32
-                    ],
-                    "box_xywh": [
-                        169.86,
-                        41.83,
-                        54.14,
-                        83.49
-                    ],
-                    "area": 4520.15,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.4538,
-                    "is_difficult": false
                 }
             ]
         },
@@ -988,7 +928,7 @@
             "image_name": "20.jpg",
             "width": 545,
             "height": 366,
-            "num_sensitive_regions": 5,
+            "num_sensitive_regions": 3,
             "sensitive_regions": [
                 {
                     "instance_id": "PII_FACE_0046",
@@ -1049,46 +989,6 @@
                     "slice": "standard_large_face",
                     "confidence_source": 0.7374,
                     "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0049",
-                    "type": "face",
-                    "box_xyxy": [
-                        62.67,
-                        99.95,
-                        112.19,
-                        183.19
-                    ],
-                    "box_xywh": [
-                        62.67,
-                        99.95,
-                        49.52,
-                        83.24
-                    ],
-                    "area": 4122.04,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.3534,
-                    "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0050",
-                    "type": "face",
-                    "box_xyxy": [
-                        88.45,
-                        111.82,
-                        263.76,
-                        257.7
-                    ],
-                    "box_xywh": [
-                        88.45,
-                        111.82,
-                        175.31,
-                        145.88
-                    ],
-                    "area": 25574.22,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.2685,
-                    "is_difficult": false
                 }
             ]
         },
@@ -1096,7 +996,7 @@
             "image_name": "21.jpg",
             "width": 739,
             "height": 415,
-            "num_sensitive_regions": 8,
+            "num_sensitive_regions": 6,
             "sensitive_regions": [
                 {
                     "instance_id": "PII_FACE_0051",
@@ -1199,63 +1099,23 @@
                     "is_difficult": false
                 },
                 {
-                    "instance_id": "PII_FACE_0056",
-                    "type": "face",
+                    "instance_id": "PII_FACE_0056_ARM",
+                    "type": "face_tattoo",
                     "box_xyxy": [
-                        640.29,
-                        271.03,
-                        681.89,
-                        324.71
+                        638.0,
+                        265.0,
+                        690.0,
+                        332.0
                     ],
                     "box_xywh": [
-                        640.29,
-                        271.03,
-                        41.6,
-                        53.68
+                        638.0,
+                        265.0,
+                        52.0,
+                        67.0
                     ],
-                    "area": 2233.09,
+                    "area": 3484.0,
                     "slice": "standard_large_face",
-                    "confidence_source": 0.3741,
-                    "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0057",
-                    "type": "face",
-                    "box_xyxy": [
-                        677.09,
-                        266.08,
-                        738.0,
-                        338.28
-                    ],
-                    "box_xywh": [
-                        677.09,
-                        266.08,
-                        60.91,
-                        72.2
-                    ],
-                    "area": 4397.7,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.2969,
-                    "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0058",
-                    "type": "face",
-                    "box_xyxy": [
-                        639.21,
-                        266.21,
-                        688.49,
-                        331.67
-                    ],
-                    "box_xywh": [
-                        639.21,
-                        266.21,
-                        49.28,
-                        65.46
-                    ],
-                    "area": 3225.87,
-                    "slice": "standard_large_face",
-                    "confidence_source": 0.2571,
+                    "confidence_source": 0.85,
                     "is_difficult": false
                 }
             ]

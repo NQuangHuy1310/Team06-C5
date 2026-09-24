@@ -55,8 +55,17 @@ def create_ground_truth():
         }
 
         for det in item.get("detections", []):
-            # Special case for 17.jpg: filter out false positive detection on background edge
-            if img_name == "17.jpg" and det.get("confidence", 1.0) < 0.5:
+            # Filter out false positive detections on background/edge
+            if img_name in ("17.jpg", "20.jpg") and det.get("confidence", 1.0) < 0.5:
+                continue
+            # For 21.jpg: filter duplicate detections on the arm tattoo
+            if img_name == "21.jpg" and det.get("confidence", 1.0) < 0.5:
+                continue
+            # For 15.jpg: drop duplicate 4th box on left woman
+            if img_name == "15.jpg" and det.get("confidence", 1.0) < 0.46:
+                continue
+            # For 12.jpg: drop duplicate overlapping boxes on left man
+            if img_name == "12.jpg" and det.get("confidence", 1.0) < 0.5:
                 continue
             face_counter += 1
             x1, y1, x2, y2 = det["box_xyxy"]
