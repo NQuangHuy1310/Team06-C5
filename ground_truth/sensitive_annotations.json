@@ -2,10 +2,10 @@
     "dataset_name": "Team06-C5 PII Release Guard Dataset",
     "description": "Ground truth sensitive regions (Faces/PII) for Privacy-Utility evaluation",
     "total_images": 21,
-    "total_sensitive_instances": 93,
+    "total_sensitive_instances": 92,
     "slice_summary": {
         "large_faces": 73,
-        "small_faces": 20
+        "small_faces": 19
     },
     "images": {
         "1.jpg": {
@@ -656,7 +656,7 @@
             "image_name": "17.jpg",
             "width": 1181,
             "height": 778,
-            "num_sensitive_regions": 3,
+            "num_sensitive_regions": 2,
             "sensitive_regions": [
                 {
                     "instance_id": "PII_FACE_0030",
@@ -697,26 +697,6 @@
                     "slice": "standard_large_face",
                     "confidence_source": 0.828,
                     "is_difficult": false
-                },
-                {
-                    "instance_id": "PII_FACE_0032",
-                    "type": "face",
-                    "box_xyxy": [
-                        985.56,
-                        229.16,
-                        1005.29,
-                        278.55
-                    ],
-                    "box_xywh": [
-                        985.56,
-                        229.16,
-                        19.73,
-                        49.39
-                    ],
-                    "area": 974.46,
-                    "slice": "small_distant_face",
-                    "confidence_source": 0.3983,
-                    "is_difficult": true
                 }
             ]
         },
