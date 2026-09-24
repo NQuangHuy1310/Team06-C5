@@ -1,0 +1,2040 @@
+{
+    "dataset_name": "Team06-C5 PII Release Guard Dataset",
+    "description": "Ground truth sensitive regions (Faces/PII) for Privacy-Utility evaluation",
+    "total_images": 21,
+    "total_sensitive_instances": 93,
+    "slice_summary": {
+        "large_faces": 73,
+        "small_faces": 20
+    },
+    "images": {
+        "1.jpg": {
+            "image_name": "1.jpg",
+            "width": 659,
+            "height": 466,
+            "num_sensitive_regions": 4,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0001",
+                    "type": "face",
+                    "box_xyxy": [
+                        149.66,
+                        64.15,
+                        197.34,
+                        130.93
+                    ],
+                    "box_xywh": [
+                        149.66,
+                        64.15,
+                        47.68,
+                        66.78
+                    ],
+                    "area": 3184.07,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9113,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0002",
+                    "type": "face",
+                    "box_xyxy": [
+                        283.35,
+                        89.52,
+                        330.86,
+                        147.93
+                    ],
+                    "box_xywh": [
+                        283.35,
+                        89.52,
+                        47.51,
+                        58.41
+                    ],
+                    "area": 2775.06,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8993,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0003",
+                    "type": "face",
+                    "box_xyxy": [
+                        407.6,
+                        59.34,
+                        456.13,
+                        124.95
+                    ],
+                    "box_xywh": [
+                        407.6,
+                        59.34,
+                        48.53,
+                        65.61
+                    ],
+                    "area": 3184.05,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8801,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0004",
+                    "type": "face",
+                    "box_xyxy": [
+                        63.38,
+                        307.84,
+                        74.88,
+                        327.43
+                    ],
+                    "box_xywh": [
+                        63.38,
+                        307.84,
+                        11.5,
+                        19.59
+                    ],
+                    "area": 225.28,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.2747,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "10.png": {
+            "image_name": "10.png",
+            "width": 1200,
+            "height": 800,
+            "num_sensitive_regions": 5,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0005",
+                    "type": "face",
+                    "box_xyxy": [
+                        298.9,
+                        244.76,
+                        382.97,
+                        368.67
+                    ],
+                    "box_xywh": [
+                        298.9,
+                        244.76,
+                        84.07,
+                        123.91
+                    ],
+                    "area": 10417.11,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9141,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0006",
+                    "type": "face",
+                    "box_xyxy": [
+                        958.99,
+                        240.13,
+                        1045.2,
+                        371.65
+                    ],
+                    "box_xywh": [
+                        958.99,
+                        240.13,
+                        86.21,
+                        131.52
+                    ],
+                    "area": 11338.34,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8676,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0007",
+                    "type": "face",
+                    "box_xyxy": [
+                        840.43,
+                        198.58,
+                        929.77,
+                        332.22
+                    ],
+                    "box_xywh": [
+                        840.43,
+                        198.58,
+                        89.34,
+                        133.64
+                    ],
+                    "area": 11939.4,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8647,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0008",
+                    "type": "face",
+                    "box_xyxy": [
+                        167.3,
+                        305.25,
+                        244.8,
+                        424.56
+                    ],
+                    "box_xywh": [
+                        167.3,
+                        305.25,
+                        77.5,
+                        119.31
+                    ],
+                    "area": 9246.52,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8533,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0009",
+                    "type": "face",
+                    "box_xyxy": [
+                        593.23,
+                        280.0,
+                        683.68,
+                        411.0
+                    ],
+                    "box_xywh": [
+                        593.23,
+                        280.0,
+                        90.45,
+                        131.0
+                    ],
+                    "area": 11848.95,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8457,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "11.jpg": {
+            "image_name": "11.jpg",
+            "width": 678,
+            "height": 452,
+            "num_sensitive_regions": 2,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0010",
+                    "type": "face",
+                    "box_xyxy": [
+                        208.15,
+                        217.29,
+                        245.81,
+                        259.18
+                    ],
+                    "box_xywh": [
+                        208.15,
+                        217.29,
+                        37.66,
+                        41.89
+                    ],
+                    "area": 1577.58,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8336,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0011",
+                    "type": "face",
+                    "box_xyxy": [
+                        244.38,
+                        242.19,
+                        277.55,
+                        288.17
+                    ],
+                    "box_xywh": [
+                        244.38,
+                        242.19,
+                        33.17,
+                        45.98
+                    ],
+                    "area": 1525.16,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.6922,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "12.jpg": {
+            "image_name": "12.jpg",
+            "width": 619,
+            "height": 495,
+            "num_sensitive_regions": 5,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0012",
+                    "type": "face",
+                    "box_xyxy": [
+                        152.51,
+                        112.03,
+                        193.87,
+                        180.24
+                    ],
+                    "box_xywh": [
+                        152.51,
+                        112.03,
+                        41.36,
+                        68.21
+                    ],
+                    "area": 2821.17,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8047,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0013",
+                    "type": "face",
+                    "box_xyxy": [
+                        378.47,
+                        60.56,
+                        424.87,
+                        136.01
+                    ],
+                    "box_xywh": [
+                        378.47,
+                        60.56,
+                        46.4,
+                        75.45
+                    ],
+                    "area": 3500.88,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7757,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0014",
+                    "type": "face",
+                    "box_xyxy": [
+                        40.43,
+                        121.9,
+                        85.28,
+                        193.4
+                    ],
+                    "box_xywh": [
+                        40.43,
+                        121.9,
+                        44.85,
+                        71.5
+                    ],
+                    "area": 3206.78,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.6241,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0015",
+                    "type": "face",
+                    "box_xyxy": [
+                        40.47,
+                        119.91,
+                        96.74,
+                        201.26
+                    ],
+                    "box_xywh": [
+                        40.47,
+                        119.91,
+                        56.27,
+                        81.35
+                    ],
+                    "area": 4577.56,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.4405,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0016",
+                    "type": "face",
+                    "box_xyxy": [
+                        41.0,
+                        127.79,
+                        75.1,
+                        185.93
+                    ],
+                    "box_xywh": [
+                        41.0,
+                        127.79,
+                        34.1,
+                        58.14
+                    ],
+                    "area": 1982.57,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.296,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "13.jpg": {
+            "image_name": "13.jpg",
+            "width": 678,
+            "height": 452,
+            "num_sensitive_regions": 4,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0017",
+                    "type": "face",
+                    "box_xyxy": [
+                        441.8,
+                        157.69,
+                        506.84,
+                        235.81
+                    ],
+                    "box_xywh": [
+                        441.8,
+                        157.69,
+                        65.04,
+                        78.12
+                    ],
+                    "area": 5080.92,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8542,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0018",
+                    "type": "face",
+                    "box_xyxy": [
+                        252.29,
+                        107.51,
+                        320.23,
+                        186.41
+                    ],
+                    "box_xywh": [
+                        252.29,
+                        107.51,
+                        67.94,
+                        78.9
+                    ],
+                    "area": 5360.47,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8405,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0019",
+                    "type": "face",
+                    "box_xyxy": [
+                        149.24,
+                        149.08,
+                        173.16,
+                        182.37
+                    ],
+                    "box_xywh": [
+                        149.24,
+                        149.08,
+                        23.92,
+                        33.29
+                    ],
+                    "area": 796.3,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8037,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0020",
+                    "type": "face",
+                    "box_xyxy": [
+                        39.91,
+                        165.2,
+                        59.53,
+                        200.06
+                    ],
+                    "box_xywh": [
+                        39.91,
+                        165.2,
+                        19.62,
+                        34.86
+                    ],
+                    "area": 683.95,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.5992,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "14.jpg": {
+            "image_name": "14.jpg",
+            "width": 554,
+            "height": 554,
+            "num_sensitive_regions": 2,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0021",
+                    "type": "face",
+                    "box_xyxy": [
+                        339.48,
+                        164.28,
+                        427.26,
+                        284.05
+                    ],
+                    "box_xywh": [
+                        339.48,
+                        164.28,
+                        87.78,
+                        119.77
+                    ],
+                    "area": 10513.41,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8652,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0022",
+                    "type": "face",
+                    "box_xyxy": [
+                        107.59,
+                        202.38,
+                        185.69,
+                        309.64
+                    ],
+                    "box_xywh": [
+                        107.59,
+                        202.38,
+                        78.1,
+                        107.26
+                    ],
+                    "area": 8377.01,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8366,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "15.jpg": {
+            "image_name": "15.jpg",
+            "width": 649,
+            "height": 472,
+            "num_sensitive_regions": 4,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0023",
+                    "type": "face",
+                    "box_xyxy": [
+                        295.48,
+                        50.53,
+                        347.09,
+                        125.01
+                    ],
+                    "box_xywh": [
+                        295.48,
+                        50.53,
+                        51.61,
+                        74.48
+                    ],
+                    "area": 3843.91,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9292,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0024",
+                    "type": "face",
+                    "box_xyxy": [
+                        186.89,
+                        42.92,
+                        223.78,
+                        122.71
+                    ],
+                    "box_xywh": [
+                        186.89,
+                        42.92,
+                        36.89,
+                        79.79
+                    ],
+                    "area": 2943.45,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8292,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0025",
+                    "type": "face",
+                    "box_xyxy": [
+                        400.05,
+                        129.65,
+                        435.93,
+                        196.54
+                    ],
+                    "box_xywh": [
+                        400.05,
+                        129.65,
+                        35.88,
+                        66.89
+                    ],
+                    "area": 2400.01,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.4922,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0026",
+                    "type": "face",
+                    "box_xyxy": [
+                        169.86,
+                        41.83,
+                        224.0,
+                        125.32
+                    ],
+                    "box_xywh": [
+                        169.86,
+                        41.83,
+                        54.14,
+                        83.49
+                    ],
+                    "area": 4520.15,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.4538,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "16.jpg": {
+            "image_name": "16.jpg",
+            "width": 547,
+            "height": 365,
+            "num_sensitive_regions": 3,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0027",
+                    "type": "face",
+                    "box_xyxy": [
+                        171.74,
+                        176.63,
+                        270.48,
+                        312.79
+                    ],
+                    "box_xywh": [
+                        171.74,
+                        176.63,
+                        98.74,
+                        136.16
+                    ],
+                    "area": 13444.44,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8915,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0028",
+                    "type": "face",
+                    "box_xyxy": [
+                        109.74,
+                        71.78,
+                        201.87,
+                        225.41
+                    ],
+                    "box_xywh": [
+                        109.74,
+                        71.78,
+                        92.13,
+                        153.63
+                    ],
+                    "area": 14153.93,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8787,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0029",
+                    "type": "face",
+                    "box_xyxy": [
+                        339.51,
+                        87.97,
+                        430.12,
+                        238.58
+                    ],
+                    "box_xywh": [
+                        339.51,
+                        87.97,
+                        90.61,
+                        150.61
+                    ],
+                    "area": 13646.77,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.4789,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "17.jpg": {
+            "image_name": "17.jpg",
+            "width": 1181,
+            "height": 778,
+            "num_sensitive_regions": 3,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0030",
+                    "type": "face",
+                    "box_xyxy": [
+                        697.36,
+                        254.82,
+                        825.52,
+                        417.03
+                    ],
+                    "box_xywh": [
+                        697.36,
+                        254.82,
+                        128.16,
+                        162.21
+                    ],
+                    "area": 20788.83,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9195,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0031",
+                    "type": "face",
+                    "box_xyxy": [
+                        342.31,
+                        120.5,
+                        472.23,
+                        313.33
+                    ],
+                    "box_xywh": [
+                        342.31,
+                        120.5,
+                        129.92,
+                        192.83
+                    ],
+                    "area": 25052.47,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.828,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0032",
+                    "type": "face",
+                    "box_xyxy": [
+                        985.56,
+                        229.16,
+                        1005.29,
+                        278.55
+                    ],
+                    "box_xywh": [
+                        985.56,
+                        229.16,
+                        19.73,
+                        49.39
+                    ],
+                    "area": 974.46,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.3983,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "18.jpg": {
+            "image_name": "18.jpg",
+            "width": 800,
+            "height": 533,
+            "num_sensitive_regions": 7,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0033",
+                    "type": "face",
+                    "box_xyxy": [
+                        91.24,
+                        155.34,
+                        134.28,
+                        238.92
+                    ],
+                    "box_xywh": [
+                        91.24,
+                        155.34,
+                        43.04,
+                        83.58
+                    ],
+                    "area": 3597.28,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9113,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0034",
+                    "type": "face",
+                    "box_xyxy": [
+                        528.36,
+                        26.67,
+                        574.77,
+                        97.15
+                    ],
+                    "box_xywh": [
+                        528.36,
+                        26.67,
+                        46.41,
+                        70.48
+                    ],
+                    "area": 3270.98,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9061,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0035",
+                    "type": "face",
+                    "box_xyxy": [
+                        402.63,
+                        116.05,
+                        466.99,
+                        201.75
+                    ],
+                    "box_xywh": [
+                        402.63,
+                        116.05,
+                        64.36,
+                        85.7
+                    ],
+                    "area": 5515.65,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8475,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0036",
+                    "type": "face",
+                    "box_xyxy": [
+                        287.6,
+                        37.63,
+                        332.63,
+                        105.79
+                    ],
+                    "box_xywh": [
+                        287.6,
+                        37.63,
+                        45.03,
+                        68.16
+                    ],
+                    "area": 3069.24,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.846,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0037",
+                    "type": "face",
+                    "box_xyxy": [
+                        704.66,
+                        34.76,
+                        735.97,
+                        108.61
+                    ],
+                    "box_xywh": [
+                        704.66,
+                        34.76,
+                        31.31,
+                        73.85
+                    ],
+                    "area": 2312.24,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.7804,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0038",
+                    "type": "face",
+                    "box_xyxy": [
+                        657.49,
+                        131.75,
+                        708.08,
+                        209.84
+                    ],
+                    "box_xywh": [
+                        657.49,
+                        131.75,
+                        50.59,
+                        78.09
+                    ],
+                    "area": 3950.57,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7716,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0039",
+                    "type": "face",
+                    "box_xyxy": [
+                        85.53,
+                        43.84,
+                        116.56,
+                        110.69
+                    ],
+                    "box_xywh": [
+                        85.53,
+                        43.84,
+                        31.03,
+                        66.85
+                    ],
+                    "area": 2074.36,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.6971,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "19.jpg": {
+            "image_name": "19.jpg",
+            "width": 678,
+            "height": 452,
+            "num_sensitive_regions": 1,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0040",
+                    "type": "face",
+                    "box_xyxy": [
+                        251.05,
+                        98.47,
+                        310.59,
+                        170.62
+                    ],
+                    "box_xywh": [
+                        251.05,
+                        98.47,
+                        59.54,
+                        72.15
+                    ],
+                    "area": 4295.81,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8166,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "2.jpg": {
+            "image_name": "2.jpg",
+            "width": 435,
+            "height": 459,
+            "num_sensitive_regions": 5,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0041",
+                    "type": "face",
+                    "box_xyxy": [
+                        361.75,
+                        114.98,
+                        390.71,
+                        157.99
+                    ],
+                    "box_xywh": [
+                        361.75,
+                        114.98,
+                        28.96,
+                        43.01
+                    ],
+                    "area": 1245.57,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.9282,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0042",
+                    "type": "face",
+                    "box_xyxy": [
+                        223.07,
+                        122.75,
+                        248.86,
+                        158.86
+                    ],
+                    "box_xywh": [
+                        223.07,
+                        122.75,
+                        25.79,
+                        36.11
+                    ],
+                    "area": 931.28,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8984,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0043",
+                    "type": "face",
+                    "box_xyxy": [
+                        272.19,
+                        82.08,
+                        303.04,
+                        121.94
+                    ],
+                    "box_xywh": [
+                        272.19,
+                        82.08,
+                        30.85,
+                        39.86
+                    ],
+                    "area": 1229.68,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8823,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0044",
+                    "type": "face",
+                    "box_xyxy": [
+                        142.99,
+                        97.12,
+                        172.83,
+                        134.98
+                    ],
+                    "box_xywh": [
+                        142.99,
+                        97.12,
+                        29.84,
+                        37.86
+                    ],
+                    "area": 1129.74,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8806,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0045",
+                    "type": "face",
+                    "box_xyxy": [
+                        93.51,
+                        125.72,
+                        120.53,
+                        162.22
+                    ],
+                    "box_xywh": [
+                        93.51,
+                        125.72,
+                        27.02,
+                        36.5
+                    ],
+                    "area": 986.23,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8281,
+                    "is_difficult": true
+                }
+            ]
+        },
+        "20.jpg": {
+            "image_name": "20.jpg",
+            "width": 545,
+            "height": 366,
+            "num_sensitive_regions": 5,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0046",
+                    "type": "face",
+                    "box_xyxy": [
+                        364.82,
+                        63.72,
+                        501.86,
+                        238.21
+                    ],
+                    "box_xywh": [
+                        364.82,
+                        63.72,
+                        137.04,
+                        174.49
+                    ],
+                    "area": 23912.11,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9601,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0047",
+                    "type": "face",
+                    "box_xyxy": [
+                        252.47,
+                        63.18,
+                        362.95,
+                        230.9
+                    ],
+                    "box_xywh": [
+                        252.47,
+                        63.18,
+                        110.48,
+                        167.72
+                    ],
+                    "area": 18529.71,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8459,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0048",
+                    "type": "face",
+                    "box_xyxy": [
+                        112.74,
+                        118.31,
+                        263.36,
+                        288.27
+                    ],
+                    "box_xywh": [
+                        112.74,
+                        118.31,
+                        150.62,
+                        169.96
+                    ],
+                    "area": 25599.38,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7374,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0049",
+                    "type": "face",
+                    "box_xyxy": [
+                        62.67,
+                        99.95,
+                        112.19,
+                        183.19
+                    ],
+                    "box_xywh": [
+                        62.67,
+                        99.95,
+                        49.52,
+                        83.24
+                    ],
+                    "area": 4122.04,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.3534,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0050",
+                    "type": "face",
+                    "box_xyxy": [
+                        88.45,
+                        111.82,
+                        263.76,
+                        257.7
+                    ],
+                    "box_xywh": [
+                        88.45,
+                        111.82,
+                        175.31,
+                        145.88
+                    ],
+                    "area": 25574.22,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.2685,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "21.jpg": {
+            "image_name": "21.jpg",
+            "width": 739,
+            "height": 415,
+            "num_sensitive_regions": 8,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0051",
+                    "type": "face",
+                    "box_xyxy": [
+                        324.58,
+                        116.83,
+                        392.15,
+                        215.87
+                    ],
+                    "box_xywh": [
+                        324.58,
+                        116.83,
+                        67.57,
+                        99.04
+                    ],
+                    "area": 6692.13,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8837,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0052",
+                    "type": "face",
+                    "box_xyxy": [
+                        372.56,
+                        173.69,
+                        435.45,
+                        278.13
+                    ],
+                    "box_xywh": [
+                        372.56,
+                        173.69,
+                        62.89,
+                        104.44
+                    ],
+                    "area": 6568.23,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8321,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0053",
+                    "type": "face",
+                    "box_xyxy": [
+                        444.51,
+                        196.26,
+                        549.05,
+                        290.67
+                    ],
+                    "box_xywh": [
+                        444.51,
+                        196.26,
+                        104.54,
+                        94.41
+                    ],
+                    "area": 9869.62,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7967,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0054",
+                    "type": "face",
+                    "box_xyxy": [
+                        200.99,
+                        90.84,
+                        276.23,
+                        189.03
+                    ],
+                    "box_xywh": [
+                        200.99,
+                        90.84,
+                        75.24,
+                        98.19
+                    ],
+                    "area": 7387.82,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7904,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0055",
+                    "type": "face",
+                    "box_xyxy": [
+                        146.45,
+                        66.04,
+                        208.28,
+                        154.16
+                    ],
+                    "box_xywh": [
+                        146.45,
+                        66.04,
+                        61.83,
+                        88.12
+                    ],
+                    "area": 5448.46,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7629,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0056",
+                    "type": "face",
+                    "box_xyxy": [
+                        640.29,
+                        271.03,
+                        681.89,
+                        324.71
+                    ],
+                    "box_xywh": [
+                        640.29,
+                        271.03,
+                        41.6,
+                        53.68
+                    ],
+                    "area": 2233.09,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.3741,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0057",
+                    "type": "face",
+                    "box_xyxy": [
+                        677.09,
+                        266.08,
+                        738.0,
+                        338.28
+                    ],
+                    "box_xywh": [
+                        677.09,
+                        266.08,
+                        60.91,
+                        72.2
+                    ],
+                    "area": 4397.7,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.2969,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0058",
+                    "type": "face",
+                    "box_xyxy": [
+                        639.21,
+                        266.21,
+                        688.49,
+                        331.67
+                    ],
+                    "box_xywh": [
+                        639.21,
+                        266.21,
+                        49.28,
+                        65.46
+                    ],
+                    "area": 3225.87,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.2571,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "3.jpg": {
+            "image_name": "3.jpg",
+            "width": 739,
+            "height": 415,
+            "num_sensitive_regions": 2,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0059",
+                    "type": "face",
+                    "box_xyxy": [
+                        314.47,
+                        77.31,
+                        392.9,
+                        160.07
+                    ],
+                    "box_xywh": [
+                        314.47,
+                        77.31,
+                        78.43,
+                        82.76
+                    ],
+                    "area": 6490.87,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8383,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0060",
+                    "type": "face",
+                    "box_xyxy": [
+                        394.6,
+                        100.09,
+                        445.04,
+                        181.36
+                    ],
+                    "box_xywh": [
+                        394.6,
+                        100.09,
+                        50.44,
+                        81.27
+                    ],
+                    "area": 4099.26,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.3451,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "4.jpg": {
+            "image_name": "4.jpg",
+            "width": 678,
+            "height": 452,
+            "num_sensitive_regions": 7,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0061",
+                    "type": "face",
+                    "box_xyxy": [
+                        344.32,
+                        180.25,
+                        422.94,
+                        288.67
+                    ],
+                    "box_xywh": [
+                        344.32,
+                        180.25,
+                        78.62,
+                        108.42
+                    ],
+                    "area": 8523.98,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9473,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0062",
+                    "type": "face",
+                    "box_xyxy": [
+                        426.46,
+                        66.94,
+                        495.54,
+                        161.97
+                    ],
+                    "box_xywh": [
+                        426.46,
+                        66.94,
+                        69.08,
+                        95.03
+                    ],
+                    "area": 6564.67,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9369,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0063",
+                    "type": "face",
+                    "box_xyxy": [
+                        184.77,
+                        91.78,
+                        268.28,
+                        199.46
+                    ],
+                    "box_xywh": [
+                        184.77,
+                        91.78,
+                        83.51,
+                        107.68
+                    ],
+                    "area": 8992.36,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.935,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0064",
+                    "type": "face",
+                    "box_xyxy": [
+                        482.54,
+                        161.43,
+                        584.32,
+                        277.15
+                    ],
+                    "box_xywh": [
+                        482.54,
+                        161.43,
+                        101.78,
+                        115.72
+                    ],
+                    "area": 11777.98,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9304,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0065",
+                    "type": "face",
+                    "box_xyxy": [
+                        266.88,
+                        177.35,
+                        342.6,
+                        289.3
+                    ],
+                    "box_xywh": [
+                        266.88,
+                        177.35,
+                        75.72,
+                        111.95
+                    ],
+                    "area": 8476.85,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.926,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0066",
+                    "type": "face",
+                    "box_xyxy": [
+                        79.5,
+                        193.97,
+                        175.11,
+                        317.11
+                    ],
+                    "box_xywh": [
+                        79.5,
+                        193.97,
+                        95.61,
+                        123.14
+                    ],
+                    "area": 11773.42,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8765,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0067",
+                    "type": "face",
+                    "box_xyxy": [
+                        324.72,
+                        84.32,
+                        410.51,
+                        168.9
+                    ],
+                    "box_xywh": [
+                        324.72,
+                        84.32,
+                        85.79,
+                        84.58
+                    ],
+                    "area": 7256.12,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.87,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "5.jpg": {
+            "image_name": "5.jpg",
+            "width": 739,
+            "height": 415,
+            "num_sensitive_regions": 6,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0068",
+                    "type": "face",
+                    "box_xyxy": [
+                        0.0,
+                        147.41,
+                        92.9,
+                        284.96
+                    ],
+                    "box_xywh": [
+                        0.0,
+                        147.41,
+                        92.9,
+                        137.55
+                    ],
+                    "area": 12778.4,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.946,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0069",
+                    "type": "face",
+                    "box_xyxy": [
+                        101.6,
+                        96.11,
+                        185.44,
+                        215.31
+                    ],
+                    "box_xywh": [
+                        101.6,
+                        96.11,
+                        83.84,
+                        119.2
+                    ],
+                    "area": 9993.73,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9383,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0070",
+                    "type": "face",
+                    "box_xyxy": [
+                        376.19,
+                        92.98,
+                        458.29,
+                        200.51
+                    ],
+                    "box_xywh": [
+                        376.19,
+                        92.98,
+                        82.1,
+                        107.53
+                    ],
+                    "area": 8828.21,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9331,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0071",
+                    "type": "face",
+                    "box_xyxy": [
+                        621.61,
+                        26.98,
+                        737.24,
+                        152.18
+                    ],
+                    "box_xywh": [
+                        621.61,
+                        26.98,
+                        115.63,
+                        125.2
+                    ],
+                    "area": 14476.88,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9299,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0072",
+                    "type": "face",
+                    "box_xyxy": [
+                        535.74,
+                        15.74,
+                        610.52,
+                        122.97
+                    ],
+                    "box_xywh": [
+                        535.74,
+                        15.74,
+                        74.78,
+                        107.23
+                    ],
+                    "area": 8018.66,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9166,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0073",
+                    "type": "face",
+                    "box_xyxy": [
+                        248.87,
+                        67.84,
+                        356.68,
+                        191.62
+                    ],
+                    "box_xywh": [
+                        248.87,
+                        67.84,
+                        107.81,
+                        123.78
+                    ],
+                    "area": 13344.72,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8209,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "6.jpg": {
+            "image_name": "6.jpg",
+            "width": 678,
+            "height": 452,
+            "num_sensitive_regions": 1,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0074",
+                    "type": "face",
+                    "box_xyxy": [
+                        314.82,
+                        120.98,
+                        402.59,
+                        249.57
+                    ],
+                    "box_xywh": [
+                        314.82,
+                        120.98,
+                        87.77,
+                        128.59
+                    ],
+                    "area": 11286.34,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9404,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "7.jpg": {
+            "image_name": "7.jpg",
+            "width": 738,
+            "height": 415,
+            "num_sensitive_regions": 8,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0075",
+                    "type": "face",
+                    "box_xyxy": [
+                        399.37,
+                        155.32,
+                        430.78,
+                        204.29
+                    ],
+                    "box_xywh": [
+                        399.37,
+                        155.32,
+                        31.41,
+                        48.97
+                    ],
+                    "area": 1538.15,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8957,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0076",
+                    "type": "face",
+                    "box_xyxy": [
+                        484.79,
+                        84.91,
+                        522.41,
+                        136.83
+                    ],
+                    "box_xywh": [
+                        484.79,
+                        84.91,
+                        37.62,
+                        51.92
+                    ],
+                    "area": 1953.23,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8935,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0077",
+                    "type": "face",
+                    "box_xyxy": [
+                        50.76,
+                        142.61,
+                        95.28,
+                        199.1
+                    ],
+                    "box_xywh": [
+                        50.76,
+                        142.61,
+                        44.52,
+                        56.49
+                    ],
+                    "area": 2514.93,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8907,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0078",
+                    "type": "face",
+                    "box_xyxy": [
+                        641.24,
+                        170.3,
+                        678.19,
+                        215.5
+                    ],
+                    "box_xywh": [
+                        641.24,
+                        170.3,
+                        36.95,
+                        45.2
+                    ],
+                    "area": 1670.14,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.8824,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0079",
+                    "type": "face",
+                    "box_xyxy": [
+                        144.86,
+                        117.68,
+                        187.69,
+                        169.57
+                    ],
+                    "box_xywh": [
+                        144.86,
+                        117.68,
+                        42.83,
+                        51.89
+                    ],
+                    "area": 2222.45,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8258,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0080",
+                    "type": "face",
+                    "box_xyxy": [
+                        558.94,
+                        123.6,
+                        599.35,
+                        170.86
+                    ],
+                    "box_xywh": [
+                        558.94,
+                        123.6,
+                        40.41,
+                        47.26
+                    ],
+                    "area": 1909.78,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.808,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0081",
+                    "type": "face",
+                    "box_xyxy": [
+                        214.0,
+                        157.66,
+                        253.26,
+                        202.25
+                    ],
+                    "box_xywh": [
+                        214.0,
+                        157.66,
+                        39.26,
+                        44.59
+                    ],
+                    "area": 1750.6,
+                    "slice": "small_distant_face",
+                    "confidence_source": 0.7635,
+                    "is_difficult": true
+                },
+                {
+                    "instance_id": "PII_FACE_0082",
+                    "type": "face",
+                    "box_xyxy": [
+                        294.47,
+                        110.88,
+                        336.41,
+                        164.77
+                    ],
+                    "box_xywh": [
+                        294.47,
+                        110.88,
+                        41.94,
+                        53.89
+                    ],
+                    "area": 2260.15,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.7418,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "8.jpg": {
+            "image_name": "8.jpg",
+            "width": 859,
+            "height": 573,
+            "num_sensitive_regions": 6,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0083",
+                    "type": "face",
+                    "box_xyxy": [
+                        565.45,
+                        95.54,
+                        613.35,
+                        159.99
+                    ],
+                    "box_xywh": [
+                        565.45,
+                        95.54,
+                        47.9,
+                        64.45
+                    ],
+                    "area": 3087.16,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9626,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0084",
+                    "type": "face",
+                    "box_xyxy": [
+                        666.71,
+                        197.04,
+                        733.12,
+                        275.27
+                    ],
+                    "box_xywh": [
+                        666.71,
+                        197.04,
+                        66.41,
+                        78.23
+                    ],
+                    "area": 5195.25,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9172,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0085",
+                    "type": "face",
+                    "box_xyxy": [
+                        244.19,
+                        62.68,
+                        289.7,
+                        129.51
+                    ],
+                    "box_xywh": [
+                        244.19,
+                        62.68,
+                        45.51,
+                        66.83
+                    ],
+                    "area": 3041.43,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9123,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0086",
+                    "type": "face",
+                    "box_xyxy": [
+                        396.72,
+                        33.55,
+                        440.0,
+                        94.09
+                    ],
+                    "box_xywh": [
+                        396.72,
+                        33.55,
+                        43.28,
+                        60.54
+                    ],
+                    "area": 2620.17,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.9017,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0087",
+                    "type": "face",
+                    "box_xyxy": [
+                        404.52,
+                        218.66,
+                        461.06,
+                        299.37
+                    ],
+                    "box_xywh": [
+                        404.52,
+                        218.66,
+                        56.54,
+                        80.71
+                    ],
+                    "area": 4563.34,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8818,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0088",
+                    "type": "face",
+                    "box_xyxy": [
+                        147.35,
+                        203.52,
+                        209.4,
+                        285.25
+                    ],
+                    "box_xywh": [
+                        147.35,
+                        203.52,
+                        62.05,
+                        81.73
+                    ],
+                    "area": 5071.35,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8601,
+                    "is_difficult": false
+                }
+            ]
+        },
+        "9.jpg": {
+            "image_name": "9.jpg",
+            "width": 1680,
+            "height": 875,
+            "num_sensitive_regions": 5,
+            "sensitive_regions": [
+                {
+                    "instance_id": "PII_FACE_0089",
+                    "type": "face",
+                    "box_xyxy": [
+                        1116.87,
+                        131.32,
+                        1250.71,
+                        308.02
+                    ],
+                    "box_xywh": [
+                        1116.87,
+                        131.32,
+                        133.84,
+                        176.7
+                    ],
+                    "area": 23649.53,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8714,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0090",
+                    "type": "face",
+                    "box_xyxy": [
+                        621.22,
+                        233.5,
+                        728.15,
+                        378.82
+                    ],
+                    "box_xywh": [
+                        621.22,
+                        233.5,
+                        106.93,
+                        145.32
+                    ],
+                    "area": 15539.07,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8658,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0091",
+                    "type": "face",
+                    "box_xyxy": [
+                        359.85,
+                        159.64,
+                        479.31,
+                        312.96
+                    ],
+                    "box_xywh": [
+                        359.85,
+                        159.64,
+                        119.46,
+                        153.32
+                    ],
+                    "area": 18315.61,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8488,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0092",
+                    "type": "face",
+                    "box_xyxy": [
+                        915.22,
+                        325.16,
+                        1032.11,
+                        483.55
+                    ],
+                    "box_xywh": [
+                        915.22,
+                        325.16,
+                        116.89,
+                        158.39
+                    ],
+                    "area": 18514.21,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.8439,
+                    "is_difficult": false
+                },
+                {
+                    "instance_id": "PII_FACE_0093",
+                    "type": "face",
+                    "box_xyxy": [
+                        1236.59,
+                        180.32,
+                        1360.3,
+                        331.48
+                    ],
+                    "box_xywh": [
+                        1236.59,
+                        180.32,
+                        123.71,
+                        151.16
+                    ],
+                    "area": 18700.0,
+                    "slice": "standard_large_face",
+                    "confidence_source": 0.6301,
+                    "is_difficult": false
+                }
+            ]
+        }
+    }
+}
