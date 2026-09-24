@@ -1,0 +1,9 @@
+[project]
+name = "team06-c5-image-processing"
+version = "0.1.0"
+description = "Image anonymization utilities for bbox effects"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.10",
+    "numpy>=1.26",
+]
