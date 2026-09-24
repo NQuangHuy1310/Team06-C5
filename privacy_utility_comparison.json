@@ -1,0 +1,20 @@
+{
+    "Blur": {
+        "Re-detection rate (%)": 100.0,
+        "Mean face confidence": 0.7766786643436977,
+        "SSIM": 0.9565967437944474,
+        "PSNR": 32.34427415275479
+    },
+    "Mask": {
+        "Re-detection rate (%)": 66.66666666666666,
+        "Mean face confidence": 0.29142281129246667,
+        "SSIM": 0.9030554671263784,
+        "PSNR": 18.356507937875048
+    },
+    "Pixelation": {
+        "Re-detection rate (%)": 71.42857142857143,
+        "Mean face confidence": 0.4682154385816483,
+        "SSIM": 0.9396446584946474,
+        "PSNR": 28.806073416988767
+    }
+}
