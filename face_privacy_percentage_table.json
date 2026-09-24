@@ -1,0 +1,149 @@
+[
+    {
+        "Image":"1.jpg",
+        "Original Confidence":0.8161,
+        "Blur Remaining (%)":59.13,
+        "Mask Remaining (%)":33.67,
+        "Pixelation Remaining (%)":30.58
+    },
+    {
+        "Image":"10.png",
+        "Original Confidence":0.7807,
+        "Blur Remaining (%)":101.23,
+        "Mask Remaining (%)":10.09,
+        "Pixelation Remaining (%)":64.4
+    },
+    {
+        "Image":"11.jpg",
+        "Original Confidence":0.7812,
+        "Blur Remaining (%)":38.29,
+        "Mask Remaining (%)":11.51,
+        "Pixelation Remaining (%)":40.29
+    },
+    {
+        "Image":"12.jpg",
+        "Original Confidence":0.7375,
+        "Blur Remaining (%)":15.85,
+        "Mask Remaining (%)":5.94,
+        "Pixelation Remaining (%)":10.16
+    },
+    {
+        "Image":"13.jpg",
+        "Original Confidence":0.7249,
+        "Blur Remaining (%)":45.14,
+        "Mask Remaining (%)":6.97,
+        "Pixelation Remaining (%)":20.33
+    },
+    {
+        "Image":"14.jpg",
+        "Original Confidence":0.8196,
+        "Blur Remaining (%)":65.52,
+        "Mask Remaining (%)":2.28,
+        "Pixelation Remaining (%)":8.58
+    },
+    {
+        "Image":"15.jpg",
+        "Original Confidence":0.7773,
+        "Blur Remaining (%)":95.26,
+        "Mask Remaining (%)":15.55,
+        "Pixelation Remaining (%)":28.59
+    },
+    {
+        "Image":"16.jpg",
+        "Original Confidence":0.7931,
+        "Blur Remaining (%)":52.68,
+        "Mask Remaining (%)":3.61,
+        "Pixelation Remaining (%)":21.36
+    },
+    {
+        "Image":"17.jpg",
+        "Original Confidence":0.8012,
+        "Blur Remaining (%)":66.03,
+        "Mask Remaining (%)":31.23,
+        "Pixelation Remaining (%)":92.7
+    },
+    {
+        "Image":"18.jpg",
+        "Original Confidence":0.7606,
+        "Blur Remaining (%)":59.19,
+        "Mask Remaining (%)":9.86,
+        "Pixelation Remaining (%)":25.76
+    },
+    {
+        "Image":"19.jpg",
+        "Original Confidence":0.6898,
+        "Blur Remaining (%)":14.78,
+        "Mask Remaining (%)":11.73,
+        "Pixelation Remaining (%)":11.7
+    },
+    {
+        "Image":"2.jpg",
+        "Original Confidence":0.8068,
+        "Blur Remaining (%)":37.32,
+        "Mask Remaining (%)":17.92,
+        "Pixelation Remaining (%)":86.34
+    },
+    {
+        "Image":"20.jpg",
+        "Original Confidence":0.8372,
+        "Blur Remaining (%)":46.18,
+        "Mask Remaining (%)":17.44,
+        "Pixelation Remaining (%)":4.05
+    },
+    {
+        "Image":"21.jpg",
+        "Original Confidence":0.7163,
+        "Blur Remaining (%)":41.48,
+        "Mask Remaining (%)":2.35,
+        "Pixelation Remaining (%)":2.87
+    },
+    {
+        "Image":"3.jpg",
+        "Original Confidence":0.7541,
+        "Blur Remaining (%)":27.12,
+        "Mask Remaining (%)":5.94,
+        "Pixelation Remaining (%)":11.78
+    },
+    {
+        "Image":"4.jpg",
+        "Original Confidence":0.8367,
+        "Blur Remaining (%)":97.09,
+        "Mask Remaining (%)":2.96,
+        "Pixelation Remaining (%)":10.47
+    },
+    {
+        "Image":"5.jpg",
+        "Original Confidence":0.8378,
+        "Blur Remaining (%)":98.58,
+        "Mask Remaining (%)":0.0,
+        "Pixelation Remaining (%)":10.88
+    },
+    {
+        "Image":"6.jpg",
+        "Original Confidence":0.8496,
+        "Blur Remaining (%)":96.79,
+        "Mask Remaining (%)":9.72,
+        "Pixelation Remaining (%)":27.36
+    },
+    {
+        "Image":"7.jpg",
+        "Original Confidence":0.7976,
+        "Blur Remaining (%)":47.64,
+        "Mask Remaining (%)":39.75,
+        "Pixelation Remaining (%)":66.14
+    },
+    {
+        "Image":"8.jpg",
+        "Original Confidence":0.8182,
+        "Blur Remaining (%)":98.41,
+        "Mask Remaining (%)":28.4,
+        "Pixelation Remaining (%)":61.44
+    },
+    {
+        "Image":"9.jpg",
+        "Original Confidence":0.7716,
+        "Blur Remaining (%)":99.69,
+        "Mask Remaining (%)":15.1,
+        "Pixelation Remaining (%)":56.25
+    }
+]
